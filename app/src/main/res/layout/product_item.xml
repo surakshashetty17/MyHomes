@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardElevation="2dp"
+    android:layout_margin="0dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/procard">
+
+    <ImageView
+        android:id="@+id/proimage"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/shirt11"/>
+
+
+    <TextView
+        android:id="@+id/proname"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="product"
+        android:textColor="@color/black"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="170dp"
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/rupeeindia"/>
+
+        <TextView
+            android:id="@+id/rupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="230dp"
+            android:text="20000"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <com.varunest.sparkbutton.SparkButton
+        android:id="@+id/imagewhish"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="25dp"
+        app:sparkbutton_activeImage="@drawable/ic_heart_on"
+        app:sparkbutton_iconSize="30dp"
+        app:sparkbutton_inActiveImage="@drawable/ic_heart_off"
+        app:sparkbutton_primaryColor="@color/heart_primary_color"
+        app:sparkbutton_secondaryColor="@color/heart_secondary_color"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="144dp"
+        android:layout_alignParentRight="true" />
+
+
+</androidx.cardview.widget.CardView>

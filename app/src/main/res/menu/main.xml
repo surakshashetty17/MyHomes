@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addsearch"
+        android:icon="@drawable/search48"
+        android:title="Add Search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/addwish"
+        android:icon="@drawable/heartoutline48"
+        android:title="Add Wish"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/addcart"
+        android:icon="@drawable/cart48"
+        android:title="Add Cart"
+        app:showAsAction="ifRoom"/>
+</menu>

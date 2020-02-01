@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyHome</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="toolbar_title">Search NanoCart</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+</resources>
